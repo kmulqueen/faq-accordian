@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "WorkSans";
+  font-style: normal;
+  font-weight: 100 900;
+  src: url("./assets/fonts/WorkSans-VariableFont_wght.ttf") format("truetype");
+}
+@font-face {
+  font-family: "WorkSans";
+  font-style: italic;
+  font-weight: 100 900;
+  src: url("./assets/fonts/WorkSans-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: hsl(0, 100%, 100%);
+  --color-black: hsl(0, 0%, 0%);
+  --color-purple-950: hsl(292, 42%, 14%);
+  --color-purple-600: hsl(292, 16%, 49%);
+  --color-purple-100: hsl(275, 100%, 97%);
+  --color-violet-600: hsl(281, 83%, 54%);
+
+  --font-size-lg: 3.5rem;
+  --font-size-md: 1.125rem;
+  --font-size-sm: 1rem;
+
+  --line-height-lg: 4.125rem;
+  --line-height-md: 1.5rem;
+  --line-height-sm: 1.3125rem;
+
+  --spacing-100: 0.5rem;
+  --spacing-200: 1rem;
+  --spacing-300: 1.5rem;
+  --spacing-400: 2rem;
+  --spacing-500: 2.5rem;
+}
+
+html {
+  font-family: "WorkSans", sans-serif;
+}
+
+.text-preset-1 {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-lg);
+  font-weight: 700;
+}
+.text-preset-2 {
+  font-size: var(--font-size-md);
+  line-height: var(--line-height-md);
+  font-weight: 600;
+}
+.text-preset-1 {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-sm);
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
